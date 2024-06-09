@@ -50,28 +50,28 @@ MetaLearnAI é licenciado sob a licença MIT. Consulte o arquivo LICENSE para ma
 ## Diretórios de Código Fonte
 
 MetaLearnAI/
--├── metalearnai/
--│   ├── __init__.py
--│   ├── problem_definition.py
--│   ├── meta_learning_algorithms.py
--│   ├── performance_evaluation.py
--│   └── utils.py
--├── tests/
--│   ├── __init__.py
--│   ├── test_problem_definition.py
--│   ├── test_meta_learning_algorithms.py
--│   ├── test_performance_evaluation.py
--│   └── test_utils.py
--├── examples/
--│   ├── example_problem_definition.py
--│   ├── example_meta_learning_algorithm.py
--│   └── example_performance_evaluation.py
--├── docs/
--│   ├── index.md
--│   ├── getting_started.md
--│   └── api_reference.md
--├── setup.py
--└── README.md
+- ├── metalearnai/
+- │   ├── __init__.py
+- │   ├── problem_definition.py
+- │   ├── meta_learning_algorithms.py
+- │   ├── performance_evaluation.py
+- │   └── utils.py
+- ├── tests/
+- │   ├── __init__.py
+- │   ├── test_problem_definition.py
+- │   ├── test_meta_learning_algorithms.py
+- │   ├── test_performance_evaluation.py
+- │   └── test_utils.py
+- ├── examples/
+- │   ├── example_problem_definition.py
+- │   ├── example_meta_learning_algorithm.py
+- │   └── example_performance_evaluation.py
+- ├── docs/
+- │   ├── index.md
+- │   ├── getting_started.md
+- │   └── api_reference.md
+- ├── setup.py
+- └── README.md
 
 
 
