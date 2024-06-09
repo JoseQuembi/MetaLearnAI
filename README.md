@@ -48,21 +48,30 @@ MetaLearnAI é licenciado sob a licença MIT. Consulte o arquivo LICENSE para ma
 - `setup.py`: Este arquivo contém instruções para a instalação do pacote Python.
 
 ## Diretórios de Código Fonte
+MetaLearnAI/
+├── metalearnai/
+│   ├── __init__.py
+│   ├── problem_definition.py
+│   ├── meta_learning_algorithms.py
+│   ├── performance_evaluation.py
+│   └── utils.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_problem_definition.py
+│   ├── test_meta_learning_algorithms.py
+│   ├── test_performance_evaluation.py
+│   └── test_utils.py
+├── examples/
+│   ├── example_problem_definition.py
+│   ├── example_meta_learning_algorithm.py
+│   └── example_performance_evaluation.py
+├── docs/
+│   ├── index.md
+│   ├── getting_started.md
+│   └── api_reference.md
+├── setup.py
+└── README.md
 
-- `metalearnai/`: Este é o diretório principal que contém o código fonte do projeto.
-    - `problems/`: Este diretório contém classes e funções para a definição de problemas de aprendizado.
-    - `algorithms/`: Este diretório contém implementações de algoritmos de meta-aprendizado.
-    - `evaluation/`: Este diretório contém ferramentas para a avaliação do desempenho dos algoritmos de meta-aprendizado.
-    - `integration/`: Este diretório contém código para a integração com outras bibliotecas de aprendizado de máquina.
-
-## Diretórios de Documentação e Tutoriais
-
-- `docs/`: Este diretório contém a documentação do projeto.
-- `tutorials/`: Este diretório contém tutoriais para ajudar os usuários a começar a usar a biblioteca.
-
-## Diretórios de Testes
-
-- `tests/`: Este diretório contém testes unitários e de integração para o projeto.
 
 Espero que isso ajude! Se você precisar de mais assistência, por favor, me avise. 😊
 
@@ -79,3 +88,21 @@ Certifique-se de ter Python 3.7 ou superior instalado em seu sistema. Você tamb
 
 ```bash
 git clone https://github.com/JoseQuembi/MetaLearnAI.git
+
+
+# MetaLearnAI
+
+MetaLearnAI é uma biblioteca Python projetada para facilitar a implementação de algoritmos de meta-aprendizado. 
+
+## Características Principais
+
+1. Definição de Problemas de Aprendizado
+2. Implementação de Algoritmos de Meta-aprendizado
+3. Avaliação de Desempenho
+4. Integração com Outras Bibliotecas de Aprendizado de Máquina
+5. Documentação e Tutoriais
+
+## Instalação
+
+```bash
+pip install MetaLearnAI
