@@ -1,5 +1,3 @@
-# MetaLearnAI gui training_widget.py
-
 from PyQt5.QtWidgets import QWidget, QVBoxLayout, QPushButton
 from PyQt5.QtCore import pyqtSignal
 

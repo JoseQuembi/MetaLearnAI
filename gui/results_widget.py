@@ -1,5 +1,3 @@
-# MetaLearnAI gui results_widget.py
-
 from PyQt5.QtWidgets import QWidget, QVBoxLayout, QLabel, QTextEdit
 
 class ResultsWidget(QWidget):

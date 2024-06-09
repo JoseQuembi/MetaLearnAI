@@ -1,5 +1,3 @@
-# MetaLearnAI gui algorithm_selection_widget.py
-
 from PyQt5.QtWidgets import QWidget, QVBoxLayout, QPushButton, QComboBox, QLabel
 from PyQt5.QtCore import pyqtSignal
 
