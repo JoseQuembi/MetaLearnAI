@@ -37,3 +37,31 @@ Contribuições para o projeto são bem-vindas. Por favor, consulte o guia de co
 ## Licença
 
 MetaLearnAI é licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
+
+
+# Estrutura do Projeto MetaLearnAI
+
+## Diretório Raiz do Projeto
+
+- `README.md`: Este arquivo contém uma visão geral do projeto, instruções de instalação e uso, e outras informações úteis.
+- `LICENSE`: Este arquivo contém detalhes sobre a licença do projeto.
+- `setup.py`: Este arquivo contém instruções para a instalação do pacote Python.
+
+## Diretórios de Código Fonte
+
+- `metalearnai/`: Este é o diretório principal que contém o código fonte do projeto.
+    - `problems/`: Este diretório contém classes e funções para a definição de problemas de aprendizado.
+    - `algorithms/`: Este diretório contém implementações de algoritmos de meta-aprendizado.
+    - `evaluation/`: Este diretório contém ferramentas para a avaliação do desempenho dos algoritmos de meta-aprendizado.
+    - `integration/`: Este diretório contém código para a integração com outras bibliotecas de aprendizado de máquina.
+
+## Diretórios de Documentação e Tutoriais
+
+- `docs/`: Este diretório contém a documentação do projeto.
+- `tutorials/`: Este diretório contém tutoriais para ajudar os usuários a começar a usar a biblioteca.
+
+## Diretórios de Testes
+
+- `tests/`: Este diretório contém testes unitários e de integração para o projeto.
+
+Espero que isso ajude! Se você precisar de mais assistência, por favor, me avise. 😊
