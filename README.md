@@ -65,3 +65,17 @@ MetaLearnAI é licenciado sob a licença MIT. Consulte o arquivo LICENSE para ma
 - `tests/`: Este diretório contém testes unitários e de integração para o projeto.
 
 Espero que isso ajude! Se você precisar de mais assistência, por favor, me avise. 😊
+
+
+# Instalação e Configuração do Projeto MetaLearnAI
+
+## Pré-requisitos
+
+Certifique-se de ter Python 3.7 ou superior instalado em seu sistema. Você também precisará do pip, que é um gerenciador de pacotes para Python.
+
+## Instalação
+
+1. Clone o repositório do projeto:
+
+```bash
+git clone https://github.com/JoseQuembi/MetaLearnAI.git
