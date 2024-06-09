@@ -1,17 +1,16 @@
-# MetaLearnAI utils.py
-
 import numpy as np
+import pandas as pd
 
-def load_data(file_path):
-    # Implementação para carregar dados a partir de um arquivo
-    pass
+def load_dataset(file_path):
+    """
+    Load a dataset from a given file path.
+    """
+    return pd.read_csv(file_path)
 
 def preprocess_data(data):
-    # Implementação para preprocessamento dos dados
-    pass
-
-def split_data(data, train_size=0.8):
-    # Dividir os dados em treino e teste
-    np.random.shuffle(data)
-    split_idx = int(len(data) * train_size)
-    return data[:split_idx], data[split_idx:]
+    """
+    Preprocess the dataset, e.g., handle missing values, normalize, etc.
+    """
+    # Dummy preprocessing step
+    data.fillna(0, inplace=True)
+    return data

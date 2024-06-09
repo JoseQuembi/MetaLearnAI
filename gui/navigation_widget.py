@@ -1,31 +1,27 @@
-from PyQt5.QtWidgets import QWidget, QVBoxLayout, QPushButton
 from PyQt5.QtCore import pyqtSignal
+from PyQt5.QtWidgets import QWidget, QVBoxLayout, QPushButton
 
 class NavigationWidget(QWidget):
-    navigateToProblemDefinition = pyqtSignal()
-    navigateToAlgorithmSelection = pyqtSignal()
-    navigateToTraining = pyqtSignal()
-    navigateToResults = pyqtSignal()
+    navigate = pyqtSignal(int)
 
-    def __init__(self):
+    def __init__(self, stacked_widget):
         super().__init__()
+        self.stacked_widget = stacked_widget
+        self.init_ui()
 
+    def init_ui(self):
         layout = QVBoxLayout()
 
-        self.problem_button = QPushButton('Definir Problema')
-        self.problem_button.clicked.connect(self.navigateToProblemDefinition.emit)
-        layout.addWidget(self.problem_button)
+        buttons = [
+            ('Definir Problema', 1),
+            ('Selecionar Algoritmo', 2),
+            ('Treinar', 3),
+            ('Resultados', 4)
+        ]
 
-        self.algorithm_button = QPushButton('Selecionar Algoritmo')
-        self.algorithm_button.clicked.connect(self.navigateToAlgorithmSelection.emit)
-        layout.addWidget(self.algorithm_button)
-
-        self.training_button = QPushButton('Treinar Modelo')
-        self.training_button.clicked.connect(self.navigateToTraining.emit)
-        layout.addWidget(self.training_button)
-
-        self.results_button = QPushButton('Resultados')
-        self.results_button.clicked.connect(self.navigateToResults.emit)
-        layout.addWidget(self.results_button)
+        for text, index in buttons:
+            button = QPushButton(text)
+            button.clicked.connect(lambda checked, index=index: self.navigate.emit(index))
+            layout.addWidget(button)
 
         self.setLayout(layout)
